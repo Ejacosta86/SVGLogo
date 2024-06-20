@@ -16,18 +16,18 @@ inquirer
     {
      type: "input",
      name: "textColor",
-     message: "Please enter the color for text, (hex or keyword)",
+     message: "Please enter the color for text, by keyword or hexadecimal:",
     },
     {
      type: "list",
      name: "shape",
      message: "Please choose logo shape:",
-     choices: ["Square","Triangle","Circle"],
+     choices: ["Circle","Triangle","Square"],
     },
     {
        type: "input",
        name: "color",
-       message: "Please enter the color for shape, (hex or keyword)", 
+       message: "Please enter the color for shape, by keyword or hexadecimal:", 
     },
     ])
     .then((answers) => {
