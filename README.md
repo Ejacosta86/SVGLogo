@@ -40,4 +40,5 @@ click link to view [website](https://github.com/Ejacosta86/SVGLogo).
 Click to watch video of application process [file link]().
 
 ## Preview
+![example website](./examples/images/Sample%201.png)
 ![example website]()
