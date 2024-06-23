@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
-const getShape = require("./lib/shape");
-const createSvg = require("./lib/svgGenerator");
+const { makeShape } = require("./lib/shapes");
+const { createSvg } = require("./lib/svgGenerator");
 
 inquirer
 .prompt([
@@ -25,11 +25,13 @@ inquirer
      choices: ["Circle","Triangle","Square"],
     },
     {
-       type: "input",
-       name: "color",
-       message: "Please enter the color for shape, by keyword or hexadecimal:", 
+      type: "input",
+      name: "color",
+      message: "Please enter the color for shape, by keyword or hexadecimal:", 
     },
     ])
     .then((answers) => {
-        createSvg(getShape(answers));
-    })
+      createSvg(makeShape(answers));
+    });
+
+  
