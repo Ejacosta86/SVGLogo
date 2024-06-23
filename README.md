@@ -37,8 +37,10 @@ If you have any further questions, you can email me at ejacosta86@gmail.com.
 click link to view [website](https://github.com/Ejacosta86/SVGLogo).
 
 ## Application video
-Click to watch video of application process [file link]().
+Click to watch video of application process [file link](https://drive.google.com/file/d/1MUuWehXNCEZGxkYgu2NmzLAm0lYLTRxR/view).
 
 ## Preview
-![example website](./examples/images/Sample%201.png)
-![example website]()
+multiple samples of options available in image file to view.
+
+![example website](./examples/images/SVG%20example.png)
+![example website](./examples/images/process%20preview.png)
